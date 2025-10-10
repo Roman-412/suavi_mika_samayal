@@ -1,0 +1,122 @@
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            position: fixed;
+        }
+
+        header {
+            background: #ff8c42;
+            color: white;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0px;
+           
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+        }
+
+        header h1 {
+            margin: 0;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: none;
+        }
+
+        h1 {
+            color: black;
+
+        }
+
+        .image-group1 {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: auto auto;
+            gap: 300px;
+            row-gap: 15px;
+            background-color: white;
+        }
+
+        .image-group1>a>img {
+            padding: 40px;
+            height: 250px;
+            margin-top: 50px;
+
+        }
+
+        img:hover {
+            transition: transform 250ms ease-in-out;
+            transform: scale(1.05);
+
+        }
+        footer {
+            background: #ff8c42;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 244px;
+            position: fixed;
+            width: 100%;
+            bottom: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>🍲 சுவையான சமையல்</h1>
+        <nav>
+            <a href="./Home_page.html">Home</a>
+            <a href="./Cooking_Recipes.html">Cooking Tips</a>
+            <a href="./Contact_Us.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="image-group1">
+        <a href="../Lunch/சிக்கன் பிரியாணி.html">
+            <img src="../asstes/Lunch/chiken Biryani.jpg" alt="image">
+        </a>
+        <a href="../Lunch/மீன் குழம்பு.html">
+            <img src="../asstes/Lunch/fish image.jpg" alt="image">
+        </a>
+        <a href="../Lunch/மட்டன் பிரியாணி.html">
+            <img src="../asstes/Lunch/mutton Biryani.jpg" alt="image">
+        </a>
+        <a href="../Lunch/சாம்பார்.html">
+            <img src="../asstes/Lunch/Kadamba-Sambar.jpg" alt="image">
+        </a>
+        <a href="../Lunch/வத்த குழம்பு.html">
+            <img src="../asstes/Lunch/Vatha Kuzhambu Recipe.JPG" alt="image">
+        </a>
+        <a href="../Lunch/வெஜ் புலாவ் .html">
+            <img src="../asstes/Lunch/veg pulao.jpg" alt="image">
+        </a>
+
+    </div>
+    <footer>
+        <p>&#169;சுவையான சமையல் 2025 | Follow us on 🌐 Facebook | Instagram</p>
+    </footer>
+
+
+</body>
+
+</html>

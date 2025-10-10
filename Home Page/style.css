@@ -1,0 +1,89 @@
+html{
+            height: 100vh;
+        }
+        body {
+            margin: 0;
+            font-family: 'Baloo Thambi 2', cursive;
+            background-color: #fff8f0;
+        }
+        header {
+            background: #ff8c42;
+            color: white;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin-top: 15px;   
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .hero {
+            height: 200px;
+            background: url('https://images.unsplash.com/photo-1604908812837-95d4b14d2f2b') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+            margin-top: 80px;
+        }
+        footer {
+            background: #ff8c42;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 148px;
+            
+        }
+        .filter-buttons {
+            text-align: center;
+            margin: 20px 0;
+            
+        }
+        .filter-buttons button {
+            background: #ff8c42;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+
+        }
+        .filter-buttons button:hover {
+            background: #e6762f;
+            
+        }
+        h1{
+            margin-top: 120px;
+            
+            color: black;
+        }
+        .assetes img{
+            height: 300px;
+            display: grid;
+            border-radius: 5px;
+        }
+        .filter-buttons{
+            display: flex;
+            justify-content: space-around;
+        }
+        .filter-buttons  button > a{
+            color: white;
+            text-decoration: none;
+        }
+        img:hover{
+                transition: transform 250ms ease-in-out;
+                transform: scale(1.05);
+        }
